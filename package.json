@@ -9,6 +9,7 @@
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
     "test:watch": "yarn test --watch",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public"
   },
@@ -28,7 +29,9 @@
     "next-pwa": "^3.1.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "styled-icons": "^10.19.0",
+    "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -54,6 +57,7 @@
     "jest": "^26.1.0",
     "jest-styled-components": "^7.0.2",
     "lint-staged": "^10.2.11",
+    "plop": "^2.7.4",
     "prettier": "^2.0.5",
     "typescript": "^3.9.6"
   }
