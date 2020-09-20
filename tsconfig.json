@@ -26,8 +26,6 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "generators/templates/test.tsx.hhbs",
-    "src/components/Goal/Goal.js",
-    "src/components/Goal/Goal.stories.js"
+    "generators/templates/test.tsx.hhbs"
   ]
 }
