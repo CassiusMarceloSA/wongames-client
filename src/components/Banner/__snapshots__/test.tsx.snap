@@ -42,6 +42,7 @@ exports[`<Banner /> Should render correctly 1`] = `
   background-image: url(https://source.unsplash.com/user/willianjusten/1042x580);
   background-position: center center;
   background-size: cover;
+  border-radius: 4px;
 }
 
 .c2 {
@@ -68,11 +69,20 @@ exports[`<Banner /> Should render correctly 1`] = `
   font-weight: 600;
 }
 
+@media (max-width:1170px) {
+  .c0 .sc-AxirZ {
+    right: 0;
+  }
+
+  .c0 .sc-AxirZ::before {
+    display: none;
+  }
+}
+
 @media (min-width:768px) {
   .c0 {
     box-shadow: 0 0.4rem 0.5rem 0 rgba(0,0,0,0.2);
     border-radius: 4px;
-    overflow: hidden;
   }
 }
 
